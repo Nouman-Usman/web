@@ -1,0 +1,11 @@
+h1 {
+   text-align: left;
+}
+header {
+   background-image: url("logo-removebg-preview.png");
+   padding:3%;
+   background-color: #e1a3a3;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 16%;
+}

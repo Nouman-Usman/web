@@ -1,0 +1,122 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+}
+
+.main-wrap {
+   position: relative;
+   width: 100%;
+}
+
+.form-wrap {
+   margin: auto;
+   margin-top: 5%;
+   border-radius: 11px;
+   padding: 80px 25px;
+   background-color: rgba(16, 15, 27, 0.952);
+   width: 350px;
+   height: auto;
+}
+
+.form-wrap h1 {
+   color: rgb(238, 237, 237);
+}
+
+.form-wrap h4 {
+   color: rgb(216, 198, 198);
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+.form-wrap span {
+   color: rgb(149, 212, 23);
+}
+
+.form input {
+   margin: 8px 0px;
+   height: 30px;
+   width: 100%;
+   border: none;
+   border-radius: 20px;
+   padding-left: 14px;
+   color: rgb(238, 237, 237);
+   background-color: rgb(7, 6, 10);
+}
+
+.form input:focus {
+   border: none;
+   outline: none
+}
+
+.form input::placeholder {
+   padding-left: 4px;
+}
+
+.form .form-btn {
+   width: 120px;
+   border-radius: 30px;
+   padding: 5px;
+   cursor: pointer;
+   font-weight: 450;
+   margin-top: 16px;
+   border: 0.1rem solid rgb(35, 215, 221);
+   color: rgb(35, 215, 221);
+   background-color: transparent;
+}
+
+.form-btn:hover {
+   background-color: rgb(17, 16, 29);
+}
+
+.sign-up-with {
+   padding: 40px 10px;
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+   color: rgb(206, 202, 202) !important;
+}
+
+.social-logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.social-logo a {
+   background-color: #fff;
+   width: 30px;
+   height: 30px;
+   margin: 2px 25px;
+   padding: 5px;
+   border-radius: 30px;
+}
+
+.social-logo a img {
+   height: 20px;
+   width: 20px;
+}
+
+body {
+   background-image: url("background.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+header {
+   background-image: url("logo1-removebg-preview.png");
+   background-position-x: right;
+   background-size: 10%;
+   text-align: center;
+   text-decoration:slateblue;
+   text-transform:uppercase;
+   background-repeat: no-repeat;
+   background-color: #e1a3a3;
+   padding: 60px;
+
+}
+footer {
+	padding: 30px;
+	background-color:#625f5181;
+}

@@ -1,0 +1,20 @@
+header {
+	background-image: url("logo1-removebg-preview.png");
+	background-position-x: right;
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-color: #e1a3a3;
+	padding: 20px;
+   text-align: center;
+}
+body{
+   text-decoration: solid;
+}
+footer {
+   margin:16px;
+   background-color:#625f5181;
+	padding: 30px;
+}
+.objective{
+   color: rgb(66, 64, 149);
+}
